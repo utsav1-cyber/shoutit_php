@@ -1,0 +1,80 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+body{
+font-family: cursive;
+font-size: 15px;
+line-height: 1.5rem;
+background: #f1f1f1;
+}
+
+#container{
+background: #222831;
+margin: 50px auto;
+overflow: auto;
+width: 60%;
+min-height: 630px;
+}
+
+header h1{
+text-align: center;
+color: #9ab3f5;
+font-size: 22px;
+padding: 15px 0 10px 10px;
+border-bottom: 1px solid #a6f6f1;
+}
+
+#shouts{
+width: 90%;
+background: #f6f7d4;
+height: 400px;
+margin: 20px auto;
+overflow: auto;
+}
+
+.shout span{
+list-style: none;
+padding: 8px;
+border-bottom: 1px #065c6f dotted; 
+}
+
+.shout span{
+color: red;
+}
+
+#input{
+width: 90%;
+min-height: 80px;
+margin: auto;
+padding: 0;
+}
+
+#input input[type='text'] {
+height: 25px;
+width: 48%;
+padding: 3px;
+margin-bottom: 20px;
+border: #2ec1ac solid 1px;
+}
+
+#input .shout-btn{
+padding: 5px;
+margin-bottom: 30px;
+width: 100%;
+margin: 10px auto;
+}
+
+.error{
+	background:red;
+	color:#ffffff;
+	padding:5px;
+	margin-bottom:20px;
+}
+
+@media only screen and (max-width: 768px) {
+#input input[type=''text] {
+width: 98%;
+}
+}
